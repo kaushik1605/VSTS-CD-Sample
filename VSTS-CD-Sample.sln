@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A8AED34-3D24-42BC-AAB8-AF7E4377BE8C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build-solution.ps1 = build-solution.ps1
+		deploy-package.ps1 = deploy-package.ps1
+		global.json = global.json
+		LICENSE = LICENSE
+		publish-api-app.ps1 = publish-api-app.ps1
+		README.md = README.md
+		run-tests.ps1 = run-tests.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43C81F90-30C2-4CE5-95C8-E3451F8CE5ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{72449AD8-EFE6-407E-A45F-4620E47ED1DF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleApiApp", "src\SampleApiApp\SampleApiApp.xproj", "{AD07FF46-A60C-4852-A83C-FE37CB750078}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleApiApp.Tests", "test\SampleApiApp.Tests\SampleApiApp.Tests.xproj", "{A14527A3-C03C-4205-A4AB-BCE1697A814B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD07FF46-A60C-4852-A83C-FE37CB750078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD07FF46-A60C-4852-A83C-FE37CB750078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD07FF46-A60C-4852-A83C-FE37CB750078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD07FF46-A60C-4852-A83C-FE37CB750078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14527A3-C03C-4205-A4AB-BCE1697A814B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14527A3-C03C-4205-A4AB-BCE1697A814B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14527A3-C03C-4205-A4AB-BCE1697A814B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14527A3-C03C-4205-A4AB-BCE1697A814B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD07FF46-A60C-4852-A83C-FE37CB750078} = {43C81F90-30C2-4CE5-95C8-E3451F8CE5ED}
+		{A14527A3-C03C-4205-A4AB-BCE1697A814B} = {72449AD8-EFE6-407E-A45F-4620E47ED1DF}
+	EndGlobalSection
+EndGlobal
